@@ -14,6 +14,8 @@
 #import "WebViewController.h"
 #import "CategoriesViewController.h"
 #import "BlockViewController.h"
+#import "NSNotificationViewController.h"
+#import "KVCAndKVOViewController.h"
 
 #define numberOfItems 19
 
@@ -23,7 +25,6 @@
 @property(nonatomic,strong)NSMutableArray*dataArray;
 @property(nonatomic,strong)NSMutableArray*itemHeights;
 @property(nonatomic,strong)NSArray *titleArray;
-
 @end
 
 @implementation WaterLayoutViewController
@@ -135,9 +136,38 @@
             [self.navigationController pushViewController:blockVC animated:YES];
             break;
         }
+        case 6:{
+            NSNotificationViewController *notiVC = [[NSNotificationViewController alloc] init];
+            
+            // 通知的用法是先有观察者，后有消息的发送者，所以如果将顺序调整，运行程序虽然不会报错，但是不会输出内容。
+            // 所以在通知的使用时一定要注意观察者和消息的发送者之间的顺序关系。
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToWork:) name:@"beginWork" object:nil];
+            
+            [self.navigationController pushViewController:notiVC animated:YES];
+            break;
+        }
+        case 7:{
+            KVCAndKVOViewController *KVCAndKVOVC = [[KVCAndKVOViewController alloc] init];
+            [self.navigationController pushViewController:KVCAndKVOVC animated:YES];
+            break;
+        }
         default:
             break;
     }
+}
+
+- (void)goToWork:(NSNotification *)notification {
+    NSLog(@"Let's begin to work, go go go !");
+    ComAlertView *alertView = [[ComAlertView alloc]initWithTitle:@"Let's begin to work, go go go !" message:nil sureBtn:@"确认" cancleBtn:@"取消"];
+    alertView.resultIndex = ^(NSInteger index){
+        // 回调 -- 处理
+        NSLog(@"%ld",(long)index);
+    };
+    [alertView showAlertView];
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (NSMutableArray *)images {
