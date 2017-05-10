@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67888A1558EE67D8076911D0EFB1A9BE409FDE95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "760E7646FF79615C99BCE2413C3B078F688839ED" : 9223372036854775807,
+    "67888A1558EE67D8076911D0EFB1A9BE409FDE95" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40EAE0F5-F6E0-46AE-BD00-D106DDF8F891",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "760E7646FF79615C99BCE2413C3B078F688839ED" : "",
+    "67888A1558EE67D8076911D0EFB1A9BE409FDE95" : "iOS%E5%BC%80%E5%8F%91-%E5%9F%BA%E7%A1%80%E4%B8%93%E9%A2%98\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOS开发-基础专题",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS开发-基础专题.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Baiyongyu\/iOS---.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67888A1558EE67D8076911D0EFB1A9BE409FDE95"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Baiyongyu\/iconfont-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "760E7646FF79615C99BCE2413C3B078F688839ED"
+    }
+  ]
+}

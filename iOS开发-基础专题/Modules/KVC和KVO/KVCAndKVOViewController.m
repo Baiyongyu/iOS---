@@ -26,7 +26,7 @@
 #import "Person.h"
 
 @interface KVCAndKVOViewController ()
-
+@property(nonatomic,strong)Person *person;
 @end
 
 @implementation KVCAndKVOViewController
@@ -37,6 +37,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     Person *person = [[Person alloc] init];
+    self.person = person;
     
     // 在使用键值编码对声明的对象进行操作时，Key的值要求和对象中的属性名相同，只有这样才能对对象属性设置成功，否则程序会报告找不到你设置的key，程序出错。
     [person setValue:@"曹群" forKey:@"name"];
@@ -113,9 +114,8 @@
 
 - (void)dealloc {
     // 最后一定要移除观察者。（对移除的顺序不做要求）
-    [self removeObserver:self forKeyPath:@"name" context:nil];
-    [self removeObserver:self forKeyPath:@"age" context:nil];
-    
+    [self.person removeObserver:self.person forKeyPath:@"name" context:nil];
+    [self.person removeObserver:self.person forKeyPath:@"age" context:nil];
 }
 
 - (void)didReceiveMemoryWarning {

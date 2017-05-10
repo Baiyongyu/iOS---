@@ -141,6 +141,15 @@
             
             // 通知的用法是先有观察者，后有消息的发送者，所以如果将顺序调整，运行程序虽然不会报错，但是不会输出内容。
             // 所以在通知的使用时一定要注意观察者和消息的发送者之间的顺序关系。
+            
+            /**
+             NSNotificationCenter是一个类，用于通知的收集和发送。
+             defaultCenter是一个类方法，返回的是这个类的对象，而且每次调用这个类方法的时候，返回的都是这个对象(单例)。
+             后边的addObserver…，是生成观察者的方法，其中的self参数是监听者对象，
+             @selector是当创建的观察者接收到通知后要执行的方法，
+             name参数表示要监听的消息的名称，
+             object是通知发送的时候传递过来的参数对象，一般为nil。
+             */
             [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goToWork:) name:@"beginWork" object:nil];
             
             [self.navigationController pushViewController:notiVC animated:YES];
@@ -158,7 +167,7 @@
 
 - (void)goToWork:(NSNotification *)notification {
     NSLog(@"Let's begin to work, go go go !");
-    ComAlertView *alertView = [[ComAlertView alloc]initWithTitle:@"Let's begin to work, go go go !" message:nil sureBtn:@"确认" cancleBtn:@"取消"];
+    ComAlertView *alertView = [[ComAlertView alloc] initWithTitle:@"Let's begin to work, go go go !" message:nil sureBtn:@"确认" cancleBtn:@"取消"];
     alertView.resultIndex = ^(NSInteger index){
         // 回调 -- 处理
         NSLog(@"%ld",(long)index);

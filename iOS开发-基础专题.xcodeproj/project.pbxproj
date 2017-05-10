@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		0D2FFBDA2F9B7B63E6421AA7 /* libPods-iOS开发-基础专题.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2512C5EC0A2C8BCED958F70 /* libPods-iOS开发-基础专题.a */; };
 		F30FDD0D1E8CC771007E7918 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD0C1E8CC771007E7918 /* WebViewController.m */; };
-		F30FDD141E8CD032007E7918 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD131E8CD032007E7918 /* Person.m */; };
 		F30FDD181E8CD0C5007E7918 /* ComAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD171E8CD0C5007E7918 /* ComAlertView.m */; };
-		F30FDD1B1E8CD165007E7918 /* Person+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD1A1E8CD165007E7918 /* Person+Additions.m */; };
-		F30FDD1E1E8CD1F9007E7918 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD1D1E8CD1F9007E7918 /* CategoriesViewController.m */; };
-		F30FDD211E8CD495007E7918 /* ProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD201E8CD495007E7918 /* ProtocolViewController.m */; };
-		F30FDD241E8CD57E007E7918 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD231E8CD57E007E7918 /* Children.m */; };
-		F30FDD271E8CD89A007E7918 /* Nanny.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD261E8CD89A007E7918 /* Nanny.m */; };
-		F30FDD2B1E8CDA72007E7918 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD2A1E8CDA72007E7918 /* BlockViewController.m */; };
-		F30FDD2E1E8CE6A4007E7918 /* NSNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD2D1E8CE6A4007E7918 /* NSNotificationViewController.m */; };
-		F30FDD351E8CF21C007E7918 /* KVCAndKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30FDD341E8CF21C007E7918 /* KVCAndKVOViewController.m */; };
+		F319BFDA1E8D0D690018BF6B /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFC51E8D0D690018BF6B /* BlockViewController.m */; };
+		F319BFDB1E8D0D690018BF6B /* KVCAndKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFC81E8D0D690018BF6B /* KVCAndKVOViewController.m */; };
+		F319BFDC1E8D0D690018BF6B /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFCB1E8D0D690018BF6B /* Children.m */; };
+		F319BFDD1E8D0D690018BF6B /* Nanny.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFCD1E8D0D690018BF6B /* Nanny.m */; };
+		F319BFDE1E8D0D690018BF6B /* ProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFCF1E8D0D690018BF6B /* ProtocolViewController.m */; };
+		F319BFDF1E8D0D690018BF6B /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFD21E8D0D690018BF6B /* CategoriesViewController.m */; };
+		F319BFE01E8D0D690018BF6B /* Person+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFD41E8D0D690018BF6B /* Person+Additions.m */; };
+		F319BFE11E8D0D690018BF6B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFD61E8D0D690018BF6B /* Person.m */; };
+		F319BFE21E8D0D690018BF6B /* NSNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F319BFD91E8D0D690018BF6B /* NSNotificationViewController.m */; };
 		F32914841E8CAD1D0081CD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32914831E8CAD1D0081CD46 /* main.m */; };
 		F32914871E8CAD1D0081CD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32914861E8CAD1D0081CD46 /* AppDelegate.m */; };
 		F329148F1E8CAD1D0081CD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F329148E1E8CAD1D0081CD46 /* Assets.xcassets */; };
@@ -37,27 +37,27 @@
 		A99EE4EEBEBDB84731CE4623 /* Pods-iOS开发-基础专题.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS开发-基础专题.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS开发-基础专题/Pods-iOS开发-基础专题.release.xcconfig"; sourceTree = "<group>"; };
 		F30FDD0B1E8CC771007E7918 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		F30FDD0C1E8CC771007E7918 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		F30FDD121E8CD032007E7918 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		F30FDD131E8CD032007E7918 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F30FDD161E8CD0C5007E7918 /* ComAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComAlertView.h; sourceTree = "<group>"; };
 		F30FDD171E8CD0C5007E7918 /* ComAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComAlertView.m; sourceTree = "<group>"; };
-		F30FDD191E8CD165007E7918 /* Person+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Additions.h"; sourceTree = "<group>"; };
-		F30FDD1A1E8CD165007E7918 /* Person+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Additions.m"; sourceTree = "<group>"; };
-		F30FDD1C1E8CD1F9007E7918 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
-		F30FDD1D1E8CD1F9007E7918 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
-		F30FDD1F1E8CD495007E7918 /* ProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolViewController.h; sourceTree = "<group>"; };
-		F30FDD201E8CD495007E7918 /* ProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolViewController.m; sourceTree = "<group>"; };
-		F30FDD221E8CD57E007E7918 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
-		F30FDD231E8CD57E007E7918 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
-		F30FDD251E8CD89A007E7918 /* Nanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanny.h; sourceTree = "<group>"; };
-		F30FDD261E8CD89A007E7918 /* Nanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanny.m; sourceTree = "<group>"; };
-		F30FDD291E8CDA72007E7918 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
-		F30FDD2A1E8CDA72007E7918 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
-		F30FDD2C1E8CE6A4007E7918 /* NSNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationViewController.h; sourceTree = "<group>"; };
-		F30FDD2D1E8CE6A4007E7918 /* NSNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationViewController.m; sourceTree = "<group>"; };
 		F30FDD2F1E8CED2D007E7918 /* iOS开发-基础专题.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS开发-基础专题.entitlements"; sourceTree = "<group>"; };
-		F30FDD331E8CF21C007E7918 /* KVCAndKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCAndKVOViewController.h; sourceTree = "<group>"; };
-		F30FDD341E8CF21C007E7918 /* KVCAndKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCAndKVOViewController.m; sourceTree = "<group>"; };
+		F319BFC41E8D0D690018BF6B /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		F319BFC51E8D0D690018BF6B /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		F319BFC71E8D0D690018BF6B /* KVCAndKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCAndKVOViewController.h; sourceTree = "<group>"; };
+		F319BFC81E8D0D690018BF6B /* KVCAndKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCAndKVOViewController.m; sourceTree = "<group>"; };
+		F319BFCA1E8D0D690018BF6B /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		F319BFCB1E8D0D690018BF6B /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		F319BFCC1E8D0D690018BF6B /* Nanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanny.h; sourceTree = "<group>"; };
+		F319BFCD1E8D0D690018BF6B /* Nanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanny.m; sourceTree = "<group>"; };
+		F319BFCE1E8D0D690018BF6B /* ProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolViewController.h; sourceTree = "<group>"; };
+		F319BFCF1E8D0D690018BF6B /* ProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolViewController.m; sourceTree = "<group>"; };
+		F319BFD11E8D0D690018BF6B /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		F319BFD21E8D0D690018BF6B /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		F319BFD31E8D0D690018BF6B /* Person+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Additions.h"; sourceTree = "<group>"; };
+		F319BFD41E8D0D690018BF6B /* Person+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Additions.m"; sourceTree = "<group>"; };
+		F319BFD51E8D0D690018BF6B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F319BFD61E8D0D690018BF6B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F319BFD81E8D0D690018BF6B /* NSNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationViewController.h; sourceTree = "<group>"; };
+		F319BFD91E8D0D690018BF6B /* NSNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationViewController.m; sourceTree = "<group>"; };
 		F329147F1E8CAD1D0081CD46 /* iOS开发-基础专题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发-基础专题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32914831E8CAD1D0081CD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F32914851E8CAD1D0081CD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,50 +107,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F30FDD0E1E8CD01C007E7918 /* 类别 */ = {
-			isa = PBXGroup;
-			children = (
-				F30FDD1C1E8CD1F9007E7918 /* CategoriesViewController.h */,
-				F30FDD1D1E8CD1F9007E7918 /* CategoriesViewController.m */,
-				F30FDD121E8CD032007E7918 /* Person.h */,
-				F30FDD131E8CD032007E7918 /* Person.m */,
-				F30FDD191E8CD165007E7918 /* Person+Additions.h */,
-				F30FDD1A1E8CD165007E7918 /* Person+Additions.m */,
-			);
-			path = "类别";
-			sourceTree = "<group>";
-		};
-		F30FDD0F1E8CD01C007E7918 /* 通知 */ = {
-			isa = PBXGroup;
-			children = (
-				F30FDD2C1E8CE6A4007E7918 /* NSNotificationViewController.h */,
-				F30FDD2D1E8CE6A4007E7918 /* NSNotificationViewController.m */,
-			);
-			path = "通知";
-			sourceTree = "<group>";
-		};
-		F30FDD101E8CD01C007E7918 /* 协议 */ = {
-			isa = PBXGroup;
-			children = (
-				F30FDD1F1E8CD495007E7918 /* ProtocolViewController.h */,
-				F30FDD201E8CD495007E7918 /* ProtocolViewController.m */,
-				F30FDD221E8CD57E007E7918 /* Children.h */,
-				F30FDD231E8CD57E007E7918 /* Children.m */,
-				F30FDD251E8CD89A007E7918 /* Nanny.h */,
-				F30FDD261E8CD89A007E7918 /* Nanny.m */,
-			);
-			path = "协议";
-			sourceTree = "<group>";
-		};
-		F30FDD111E8CD01C007E7918 /* KVC和KVO */ = {
-			isa = PBXGroup;
-			children = (
-				F30FDD331E8CF21C007E7918 /* KVCAndKVOViewController.h */,
-				F30FDD341E8CF21C007E7918 /* KVCAndKVOViewController.m */,
-			);
-			path = "KVC和KVO";
-			sourceTree = "<group>";
-		};
 		F30FDD151E8CD0AD007E7918 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,13 +116,69 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
-		F30FDD281E8CDA5B007E7918 /* Block */ = {
+		F319BFC21E8D0D690018BF6B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F30FDD291E8CDA72007E7918 /* BlockViewController.h */,
-				F30FDD2A1E8CDA72007E7918 /* BlockViewController.m */,
+				F319BFC31E8D0D690018BF6B /* Block */,
+				F319BFC61E8D0D690018BF6B /* KVC和KVO */,
+				F319BFC91E8D0D690018BF6B /* 协议 */,
+				F319BFD01E8D0D690018BF6B /* 类别 */,
+				F319BFD71E8D0D690018BF6B /* 通知 */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F319BFC31E8D0D690018BF6B /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				F319BFC41E8D0D690018BF6B /* BlockViewController.h */,
+				F319BFC51E8D0D690018BF6B /* BlockViewController.m */,
 			);
 			path = Block;
+			sourceTree = "<group>";
+		};
+		F319BFC61E8D0D690018BF6B /* KVC和KVO */ = {
+			isa = PBXGroup;
+			children = (
+				F319BFC71E8D0D690018BF6B /* KVCAndKVOViewController.h */,
+				F319BFC81E8D0D690018BF6B /* KVCAndKVOViewController.m */,
+			);
+			path = "KVC和KVO";
+			sourceTree = "<group>";
+		};
+		F319BFC91E8D0D690018BF6B /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				F319BFCA1E8D0D690018BF6B /* Children.h */,
+				F319BFCB1E8D0D690018BF6B /* Children.m */,
+				F319BFCC1E8D0D690018BF6B /* Nanny.h */,
+				F319BFCD1E8D0D690018BF6B /* Nanny.m */,
+				F319BFCE1E8D0D690018BF6B /* ProtocolViewController.h */,
+				F319BFCF1E8D0D690018BF6B /* ProtocolViewController.m */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		F319BFD01E8D0D690018BF6B /* 类别 */ = {
+			isa = PBXGroup;
+			children = (
+				F319BFD11E8D0D690018BF6B /* CategoriesViewController.h */,
+				F319BFD21E8D0D690018BF6B /* CategoriesViewController.m */,
+				F319BFD31E8D0D690018BF6B /* Person+Additions.h */,
+				F319BFD41E8D0D690018BF6B /* Person+Additions.m */,
+				F319BFD51E8D0D690018BF6B /* Person.h */,
+				F319BFD61E8D0D690018BF6B /* Person.m */,
+			);
+			path = "类别";
+			sourceTree = "<group>";
+		};
+		F319BFD71E8D0D690018BF6B /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+				F319BFD81E8D0D690018BF6B /* NSNotificationViewController.h */,
+				F319BFD91E8D0D690018BF6B /* NSNotificationViewController.m */,
+			);
+			path = "通知";
 			sourceTree = "<group>";
 		};
 		F32914761E8CAD1D0081CD46 = {
@@ -195,14 +207,10 @@
 				F32914861E8CAD1D0081CD46 /* AppDelegate.m */,
 				F30FDD0B1E8CC771007E7918 /* WebViewController.h */,
 				F30FDD0C1E8CC771007E7918 /* WebViewController.m */,
-				F30FDD281E8CDA5B007E7918 /* Block */,
-				F30FDD151E8CD0AD007E7918 /* Component */,
-				F30FDD0E1E8CD01C007E7918 /* 类别 */,
-				F30FDD0F1E8CD01C007E7918 /* 通知 */,
-				F30FDD101E8CD01C007E7918 /* 协议 */,
-				F30FDD111E8CD01C007E7918 /* KVC和KVO */,
-				F32914991E8CAD5A0081CD46 /* Model */,
 				F329149C1E8CAD5A0081CD46 /* WaterLayout */,
+				F319BFC21E8D0D690018BF6B /* Modules */,
+				F30FDD151E8CD0AD007E7918 /* Component */,
+				F32914991E8CAD5A0081CD46 /* Model */,
 				F32914821E8CAD1D0081CD46 /* Supporting Files */,
 			);
 			path = "iOS开发-基础专题";
@@ -373,23 +381,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30FDD351E8CF21C007E7918 /* KVCAndKVOViewController.m in Sources */,
-				F30FDD2E1E8CE6A4007E7918 /* NSNotificationViewController.m in Sources */,
-				F30FDD271E8CD89A007E7918 /* Nanny.m in Sources */,
-				F30FDD211E8CD495007E7918 /* ProtocolViewController.m in Sources */,
 				F32914871E8CAD1D0081CD46 /* AppDelegate.m in Sources */,
-				F30FDD2B1E8CDA72007E7918 /* BlockViewController.m in Sources */,
+				F319BFDE1E8D0D690018BF6B /* ProtocolViewController.m in Sources */,
+				F319BFDC1E8D0D690018BF6B /* Children.m in Sources */,
 				F30FDD0D1E8CC771007E7918 /* WebViewController.m in Sources */,
-				F30FDD1B1E8CD165007E7918 /* Person+Additions.m in Sources */,
-				F30FDD141E8CD032007E7918 /* Person.m in Sources */,
 				F32914B61E8CB2DA0081CD46 /* HomeWaterImage.m in Sources */,
+				F319BFDA1E8D0D690018BF6B /* BlockViewController.m in Sources */,
 				F32914841E8CAD1D0081CD46 /* main.m in Sources */,
+				F319BFE01E8D0D690018BF6B /* Person+Additions.m in Sources */,
+				F319BFE21E8D0D690018BF6B /* NSNotificationViewController.m in Sources */,
+				F319BFDD1E8D0D690018BF6B /* Nanny.m in Sources */,
 				F32914B51E8CB2DA0081CD46 /* WaterLayoutViewController.m in Sources */,
+				F319BFE11E8D0D690018BF6B /* Person.m in Sources */,
+				F319BFDB1E8D0D690018BF6B /* KVCAndKVOViewController.m in Sources */,
+				F319BFDF1E8D0D690018BF6B /* CategoriesViewController.m in Sources */,
 				F32914B91E8CB2DA0081CD46 /* WaterfallLayout.m in Sources */,
 				F30FDD181E8CD0C5007E7918 /* ComAlertView.m in Sources */,
 				F32914B71E8CB2DA0081CD46 /* WaterCollectionViewCell.m in Sources */,
-				F30FDD1E1E8CD1F9007E7918 /* CategoriesViewController.m in Sources */,
-				F30FDD241E8CD57E007E7918 /* Children.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

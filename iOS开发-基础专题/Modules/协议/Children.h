@@ -14,6 +14,7 @@
     <NSObject>是一个协议，其中提供了很多方法供我们使用，通过main.m中代码的解释我们会看到服从这个协议的好处。（协议用“<>”）
  */
 
+
 @protocol ChildrenDelegate <NSObject> //协议声明
 //在协议中，有几个方法的修饰词供我们使用：
 //@required(表示以下方法必须实现)
